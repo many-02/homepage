@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/tableContainer.css">
+    <link rel="stylesheet" href="CSS/section.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/navigation.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="js/script.js"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body class="body">
+    <nav class="navigation">
+        <ul>
+            <li class="navItem"><a href="#home">Home</a></li>
+            <li class="navItem"><a href="#o-mnie">O mnie</a></li>
+            <li class="navItem"><a href="#pasje">Pasje</a></li>
+            <li class="navItem"><a href="#tabela">Tabela</a></li>
+            <li class="navItem"><a href="#interakcja">Interakcja</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <img class="img" src="images/image.png" alt="Mateusz Dyderski">
+        <h1 class="name" id="home">Mateusz Dyderski</h2>
+    </header>
+    <section class="section">
+        <h2 class="sectionItem" id="o-mnie">Pare słów o mnie</h2>
+        <p class="tekst">Moją pasją jest fotografia krajobrazowa. Uwielbiam spędzać czas na świeżym powietrzu,
+            odkrywając piękno natury i uchwycając je na zdjęciach. Szczególnie fascynują mnie wschody i zachody słońca,
+            gra świateł i cieni oraz niepowtarzalna atmosfera różnych pór roku. Fotografia pozwala mi zatrzymać ulotne
+            chwile i dzielić się nimi z innymi. Każde zdjęcie to dla mnie nie tylko obraz, ale także emocje i
+            wspomnienia, które staram się uchwycić w kadrze.</p>
+        <h2 class="sectionItem" id="pasje">Inne pasje</h2>
+        <p class="section__paragraph">Moją pasją jest siłownia. Treningi dają mi nie tylko siłę i wytrzymałość, ale także satysfakcję
+            z własnych postępów. Lubię przekraczać swoje granice, poprawiać wyniki i dbać o dobrą formę. Siłownia to dla
+            mnie nie tylko sposób na zdrowie, ale także na odprężenie i oderwanie się od codziennych spraw. Regularne
+            ćwiczenia uczą mnie dyscypliny, determinacji i konsekwencji w dążeniu do celu. 💪🔥</p>
+        <h2 id="tabela" class="sectionItem"></h2>
+        <div class="container">
+            <h2 class="sectionItem">Zawody sportowe</h2>
+            <table class="table">
+                <caption class="caption">Zawody sportowe</caption>
+                <thead>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="col">Zawodnik</th>
+                        <th class="tableCell tableHeader" scope="col">Konkurencja</th>
+                        <th class="tableCell tableHeader" scope="col">Wynik</th>
+                        <th class="tableCell tableHeader" scope="col">Miejsce</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="row">Kowalski</th>
+                        <td class="tableCell">Bieg 100m</td>
+                        <td class="tableCell">10.5s</t0d>
+                        <td class="tableCell">🥇</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="row">Nowak</th>
+                        <td class="tableCell">Skok w dal</td>
+                        <td class="tableCell">7.2m</td>
+                        <td class="tableCell">🥈</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="row">Wiśniewski</th>
+                        <td class="tableCell">Rzut oszczepem</td>
+                        <td class="tableCell">68.4m</td>
+                        <td class="tableCell">🥇</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="row">Lewandowska</th>
+                        <td class="tableCell">Pchnięcie kulą</th>
+                        <td class="tableCell">15.2m</td>
+                        <td class="tableCell">🥉</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="row">Zieliński</th>
+                        <td class="tableCell">Bieg 400m</td>
+                        <td class="tableCell">47.3s</td>
+                        <td class="tableCell">🥈</td>
+                    </tr>
+                    <tr class="tableRow">
+                        <th class="tableCell tableHeader" scope="row">Kaczmarek</th>
+                        <td class="tableCell">Skok wzwyż</td>
+                        <td class="tableCell">2.05m</td>
+                        <td class="tableCell">🥇</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </article>
+    <h2 id="interakcja" class="sectionItem">Przykładowa interacja</h2>
+    <button class="button">Włącz <span class="themeName">jasny</span> motyw</button>
+    <footer class="footer">
+       <p class="footerItem">Strona została stworzona przez ..</p>
+    </footer>
+</body>
+
+</html>

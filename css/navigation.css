@@ -1,0 +1,16 @@
+.navItem{
+    list-style-type: none;
+    margin-left: -40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+   }
+   .navItem a {
+       color: rgb(11, 192, 192); 
+       
+       text-decoration: none;
+   
+   }
+   .navItem a:hover {
+       color: rgb(8, 0, 0); 
+   }
+   

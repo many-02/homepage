@@ -1,0 +1,7 @@
+.footerItem{
+	text-align: center;
+	border:1px solid rgb(11, 192, 192);
+	background-color: rgb(11, 192, 192);
+	padding: 20px;
+	margin-top: 60px;
+}
