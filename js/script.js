@@ -1,3 +1,5 @@
+console.log("Witam wszystkich developerów, którzy tutaj zaglądają.")
+
 let button = document.querySelector(".button");
 let themeName = document.querySelector(".themeName");
 let body = document.querySelector(".body");
